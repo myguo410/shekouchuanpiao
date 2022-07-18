@@ -13,18 +13,18 @@ import time
 # ==================================
 # Global Settings
 # Github Action
-enable_gh_action = False  # 启用GitHub Action
+enable_gh_action = True  # 启用GitHub Action
 # Bark Push
 enable_bark = False  # 启用Bark推送
 bark_token = ""  # Bark推送ID
 # Serverchan Push
-enable_serverchan = False  # 启用Server酱(Turbo)推送
-sct_token = ""  # Sendkey
+enable_serverchan = True  # 启用Server酱(Turbo)推送
+sct_token = "SCT161075Tz4jn38IA5bQoswx6tBj4YpFb"  # Sendkey
 # Ticket Stuff
 startSite = "SK"  # 始发站点
 endSite = "HKA"  # 目标站点
-startDate = "2022-04-20"  # 船票搜索日期
-endDate = "2022-04-30"
+startDate = "2022-09-21"  # 船票搜索日期
+endDate = "2022-09-25"
 show_available_only = True  # 只显示有票的日期
 # ==================================
 

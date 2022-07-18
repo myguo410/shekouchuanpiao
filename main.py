@@ -13,7 +13,7 @@ import time
 # ==================================
 # Global Settings
 # Github Action
-enable_gh_action = False  # 启用GitHub Action
+enable_gh_action = True  # 启用GitHub Action
 # Bark Push
 enable_bark = False  # 启用Bark推送
 bark_token = ""  # Bark推送ID
@@ -49,8 +49,8 @@ if __name__ == '__main__':
         else:
             period = str(period)    # Convert str to int
 
-        d1 = datetime.date.today()
-        d2 = (d1 + datetime.timedelta(period))
+        d1 = datetime.date(2022,9,21)
+        d2 = (d1 + datetime.timedelta(4))
 
 
         startDate = d1.strftime("%Y-%m-%d")

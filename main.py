@@ -13,7 +13,7 @@ import time
 # ==================================
 # Global Settings
 # Github Action
-enable_gh_action = True  # 启用GitHub Action
+enable_gh_action = False  # 启用GitHub Action
 # Bark Push
 enable_bark = False  # 启用Bark推送
 bark_token = ""  # Bark推送ID

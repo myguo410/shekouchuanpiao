@@ -35,14 +35,14 @@ if __name__ == '__main__':
             sys.argv[1] == "--action" and \
             "--start=" in sys.argv[2] and \
             "--end" in sys.argv[3]:
-        enable_gh_action = True  # 检测是否在GitHub Action中运行
+        enable_gh_action = False  # 检测是否在GitHub Action中运行
         startDate = sys.argv[2].lstrip("--start=")
         endDate = sys.argv[3].lstrip("--end=")
     elif len(sys.argv) > 1 and \
             "--period=" in sys.argv[2]:
         import datetime
 
-        enable_gh_action = True  # 检测是否在GitHub Action中运行
+        enable_gh_action = False  # 检测是否在GitHub Action中运行
         period = sys.argv[2].lstrip("--period=")
         if not period:
             period = 30

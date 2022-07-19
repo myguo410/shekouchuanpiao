@@ -24,7 +24,7 @@ sct_token = "SCT161075Tz4jn38IA5bQoswx6tBj4YpFb"  # Sendkey
 startSite = "SK"  # 始发站点
 endSite = "HKA"  # 目标站点
 startDate = "2022-09-21"  # 船票搜索日期
-endDate = "2022-09-24"
+endDate = "2022-09-21"
 show_available_only = True  # 只显示有票的日期
 # ==================================
 
@@ -50,7 +50,7 @@ if __name__ == '__main__':
             period = str(period)    # Convert str to int
 
         d1 = datetime.date(2022,9,21)
-        d2 = (d1 + datetime.timedelta(3))
+        d2 = (d1 + datetime.timedelta(0))
 
 
         startDate = d1.strftime("%Y-%m-%d")
